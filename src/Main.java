@@ -11,6 +11,15 @@ public class Main {
         System.out.println("After Bubble Sort:");
         printArray(bubbleArr);
 
+
+        // Quick Sort Test
+        int[] quickArr = {38, 27, 43, 3, 9, 82, 10};
+        System.out.println("\nBefore Quick Sort:");
+        printArray(quickArr);
+        QuickSort.sort(quickArr, 0, quickArr.length - 1);
+        System.out.println("After Quick Sort:");
+        printArray(quickArr);
+
     }
         // Utility method to print arrays
         private static void printArray(int[] arr) {
