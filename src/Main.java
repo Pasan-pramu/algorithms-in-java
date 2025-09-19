@@ -20,6 +20,14 @@ public class Main {
         System.out.println("After Quick Sort:");
         printArray(quickArr);
 
+        // Insertion Sort Test
+        int[] insertionArr = {5, 2, 9, 1, 5, 6};
+        System.out.println("\nBefore Insertion Sort:");
+        printArray(insertionArr);
+        InsertionSort.sort(insertionArr);
+        System.out.println("After Insertion Sort:");
+        printArray(insertionArr);
+
     }
         // Utility method to print arrays
         private static void printArray(int[] arr) {
