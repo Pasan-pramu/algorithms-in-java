@@ -37,6 +37,17 @@ public class Main {
         System.out.println(" After Sorted array:");
         printArray(Selectionarr);
 
+        //Merge Sort Test
+        int[] arr = {38, 27, 43, 3, 9, 82, 10};
+
+        System.out.println("\nBefore Merge array:");
+        printArray(arr);
+
+        MergeSort.sort(arr);
+
+        System.out.println("After Sorted array:");
+        printArray(arr);
+
 
 
 
