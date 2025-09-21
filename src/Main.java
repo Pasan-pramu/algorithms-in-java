@@ -28,6 +28,21 @@ public class Main {
         System.out.println("After Insertion Sort:");
         printArray(insertionArr);
 
+
+        // Selection Sort Test
+        int[] Selectionarr = {64, 25, 12, 22, 11};
+        System.out.println("\nBefore Selection array:");
+        printArray(Selectionarr);
+        SelectionSort.sort(Selectionarr);
+        System.out.println(" After Sorted array:");
+        printArray(Selectionarr);
+
+
+
+
+
+
+
     }
         // Utility method to print arrays
         private static void printArray(int[] arr) {
